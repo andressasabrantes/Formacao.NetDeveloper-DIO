@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\andre\\OneDrive\\Área de Trabalho\\projetoMVC\\projetoMVC.csproj": {}
+    "C:\\Users\\andre\\OneDrive\\Área de Trabalho\\Formacao.NetDeveloper-DIO\\projetoMVC\\projetoMVC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\andre\\OneDrive\\Área de Trabalho\\projetoMVC\\projetoMVC.csproj": {
+    "C:\\Users\\andre\\OneDrive\\Área de Trabalho\\Formacao.NetDeveloper-DIO\\projetoMVC\\projetoMVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\andre\\OneDrive\\Área de Trabalho\\projetoMVC\\projetoMVC.csproj",
+        "projectUniqueName": "C:\\Users\\andre\\OneDrive\\Área de Trabalho\\Formacao.NetDeveloper-DIO\\projetoMVC\\projetoMVC.csproj",
         "projectName": "projetoMVC",
-        "projectPath": "C:\\Users\\andre\\OneDrive\\Área de Trabalho\\projetoMVC\\projetoMVC.csproj",
+        "projectPath": "C:\\Users\\andre\\OneDrive\\Área de Trabalho\\Formacao.NetDeveloper-DIO\\projetoMVC\\projetoMVC.csproj",
         "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\andre\\OneDrive\\Área de Trabalho\\projetoMVC\\obj\\",
+        "outputPath": "C:\\Users\\andre\\OneDrive\\Área de Trabalho\\Formacao.NetDeveloper-DIO\\projetoMVC\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -46,6 +46,8 @@
           "targetAlias": "net7.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.0, )"
             },
